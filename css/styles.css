@@ -119,6 +119,7 @@ body {
 .hero-button {
   color: var(--primary-white-color);
   background-color: var(--accent-color);
+  font-family: Roboto;
 }
 
 .hero-button:hover,
@@ -169,6 +170,34 @@ body {
 /* ---------------------- !!! portfolio.html !!! ---------------------- */
 
 /* ---------------------- Completed projects section ---------------------- */
+.filer-button {
+  font-family: Roboto;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+
+  color: var(--primaty-text-color);
+  background-color: var(--button-color);
+}
+
+.filer-button:hover,
+.filer-button:focus {
+  color: var(--accent-color);
+}
+
+.completed-projects-title {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+}
+
+.completed-projects-text {
+  font-size: 16px;
+  line-height: 1.87;
+
+  color: var(--secondary-text-color);
+}
 
 /* ---------------------- Footer ---------------------- */
 .footer-section {
@@ -200,5 +229,9 @@ body {
 
 .footer-contact-info .link:hover,
 .footer-contact-info .link:focus {
+  color: var(--accent-color);
+}
+
+.link.current {
   color: var(--accent-color);
 }
