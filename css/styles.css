@@ -232,6 +232,8 @@ body {
   color: var(--accent-color);
 }
 
+/* ---------------------- Current link ---------------------- */
+
 .link.current {
   color: var(--accent-color);
 }
