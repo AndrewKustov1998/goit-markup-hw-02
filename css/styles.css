@@ -67,11 +67,6 @@ body {
   color: var(--accent-color);
 }
 
-/* .logo-header:hover,
-.logo-header:focus {
-  color: var(--accent-color);
-} */
-
 .site-nav .link {
   font-weight: 500;
   font-size: 14px;
@@ -80,6 +75,10 @@ body {
   letter-spacing: 0.02em;
 
   color: var(--primaty-text-color);
+}
+
+.link.current {
+  color: var(--accent-color);
 }
 
 .site-nav .link:hover,
@@ -110,7 +109,7 @@ body {
 .hero-title {
   font-weight: 900;
   font-size: 44px;
-  line-height: 1.5;
+  line-height: 1.36;
   letter-spacing: 0.06em;
   text-transform: uppercase;
 
@@ -120,7 +119,11 @@ body {
 .hero-button {
   color: var(--primary-white-color);
   background-color: var(--accent-color);
-  font-family: Roboto;
+  font-family: 'Roboto';
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.87;
+  letter-spacing: 0.06em;
 }
 
 .hero-button:hover,
@@ -186,6 +189,10 @@ body {
   color: var(--accent-color);
 }
 
+.filer-button.current {
+  color: var(--accent-color);
+}
+
 .completed-projects-title {
   font-weight: 700;
   font-size: 18px;
@@ -230,11 +237,5 @@ body {
 
 .footer-contact-info .link:hover,
 .footer-contact-info .link:focus {
-  color: var(--accent-color);
-}
-
-/* ---------------------- Current link ---------------------- */
-
-.link.current {
   color: var(--accent-color);
 }
